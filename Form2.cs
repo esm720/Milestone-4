@@ -16,6 +16,7 @@ namespace Milestone_4
      */
     public partial class Form2 : Form
     {
+        //Initialized all variables used throughout the class
         List<string> userList = new List<string>();
 
        static int xboxQuant = 0;
@@ -105,7 +106,8 @@ namespace Milestone_4
             ShopXboxLabel.Text = "Name: " + xboxName + " \n\n" +
             "Description: " + xboxDescription + "\n\n" +
             "Price: $" + xboxPrice + "\n\n" +
-            "Quantity: " + xboxQuant;
+            "Quantity: " + xboxQuant + "\n\n" +
+            "Price for All: " + String.Format("{0:C}",xboxQuant * xboxPrice); //MILESTONE 5 CHANGE
             int count = 0;
             //Search to count how many elements are in list, if there is nothing, we display empty
             foreach(string product in userList)
@@ -190,7 +192,8 @@ namespace Milestone_4
                 ShowPSLabel.Text = "Name: " + psName + " \n\n" +
                    "Description: " + psDescription + "\n\n" +
                    "Price: $" + psPrice + "\n\n" +
-                   "Quantity: " + psQuant;
+                   "Quantity: " + psQuant + "\n\n" + 
+                   "Price for All: " + String.Format("{0:C}", psQuant * psPrice); //MILESTONE 5 CHANGE
             int count = 0;
             foreach (string product in userList)
             {

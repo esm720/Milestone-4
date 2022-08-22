@@ -10,10 +10,14 @@ using System.Windows.Forms;
 
 namespace Milestone_4
 {
+    /*Enrique Sanchezmurillo
+    * CST-150, Milestone 4
+    * 21 AUG 2022
+    */
     public partial class Form1 : Form
     {
         Form2 form2 = new Form2();
-        Form3 form3 = new Form3();
+
         public Form1()
         {
             InitializeComponent();

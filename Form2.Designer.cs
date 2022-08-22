@@ -53,7 +53,7 @@
             // 
             this.XboxPurBut.BackColor = System.Drawing.Color.DarkGray;
             this.XboxPurBut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.XboxPurBut.Location = new System.Drawing.Point(63, 451);
+            this.XboxPurBut.Location = new System.Drawing.Point(63, 479);
             this.XboxPurBut.Name = "XboxPurBut";
             this.XboxPurBut.Size = new System.Drawing.Size(198, 76);
             this.XboxPurBut.TabIndex = 0;
@@ -65,7 +65,7 @@
             // 
             this.PSPurBut.BackColor = System.Drawing.Color.DarkGray;
             this.PSPurBut.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.PSPurBut.Location = new System.Drawing.Point(323, 451);
+            this.PSPurBut.Location = new System.Drawing.Point(323, 479);
             this.PSPurBut.Name = "PSPurBut";
             this.PSPurBut.Size = new System.Drawing.Size(198, 76);
             this.PSPurBut.TabIndex = 1;
@@ -76,7 +76,7 @@
             // QuantPurchLabel
             // 
             this.QuantPurchLabel.Font = new System.Drawing.Font("MS Gothic", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantPurchLabel.Location = new System.Drawing.Point(117, 390);
+            this.QuantPurchLabel.Location = new System.Drawing.Point(117, 412);
             this.QuantPurchLabel.Name = "QuantPurchLabel";
             this.QuantPurchLabel.Size = new System.Drawing.Size(144, 55);
             this.QuantPurchLabel.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             // shopTextInp
             // 
-            this.shopTextInp.Location = new System.Drawing.Point(251, 393);
+            this.shopTextInp.Location = new System.Drawing.Point(251, 414);
             this.shopTextInp.Multiline = true;
             this.shopTextInp.Name = "shopTextInp";
             this.shopTextInp.Size = new System.Drawing.Size(205, 31);
@@ -94,7 +94,7 @@
             // 
             this.ExitButtonShop.BackColor = System.Drawing.Color.DarkGray;
             this.ExitButtonShop.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.ExitButtonShop.Location = new System.Drawing.Point(785, 566);
+            this.ExitButtonShop.Location = new System.Drawing.Point(785, 593);
             this.ExitButtonShop.Name = "ExitButtonShop";
             this.ExitButtonShop.Size = new System.Drawing.Size(198, 76);
             this.ExitButtonShop.TabIndex = 4;
@@ -109,7 +109,7 @@
             this.ShopXboxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShopXboxLabel.Location = new System.Drawing.Point(29, 27);
             this.ShopXboxLabel.Name = "ShopXboxLabel";
-            this.ShopXboxLabel.Size = new System.Drawing.Size(237, 299);
+            this.ShopXboxLabel.Size = new System.Drawing.Size(237, 347);
             this.ShopXboxLabel.TabIndex = 5;
             // 
             // productGroupBox
@@ -119,7 +119,7 @@
             this.productGroupBox.Controls.Add(this.ShopXboxLabel);
             this.productGroupBox.Location = new System.Drawing.Point(12, 12);
             this.productGroupBox.Name = "productGroupBox";
-            this.productGroupBox.Size = new System.Drawing.Size(559, 360);
+            this.productGroupBox.Size = new System.Drawing.Size(559, 388);
             this.productGroupBox.TabIndex = 6;
             this.productGroupBox.TabStop = false;
             this.productGroupBox.Text = "Products";
@@ -131,14 +131,14 @@
             this.ShowPSLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShowPSLabel.Location = new System.Drawing.Point(291, 27);
             this.ShowPSLabel.Name = "ShowPSLabel";
-            this.ShowPSLabel.Size = new System.Drawing.Size(237, 299);
+            this.ShowPSLabel.Size = new System.Drawing.Size(237, 347);
             this.ShowPSLabel.TabIndex = 6;
             // 
             // ReturnPSBut
             // 
             this.ReturnPSBut.BackColor = System.Drawing.Color.DarkGray;
             this.ReturnPSBut.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.ReturnPSBut.Location = new System.Drawing.Point(914, 451);
+            this.ReturnPSBut.Location = new System.Drawing.Point(914, 479);
             this.ReturnPSBut.Name = "ReturnPSBut";
             this.ReturnPSBut.Size = new System.Drawing.Size(198, 76);
             this.ReturnPSBut.TabIndex = 12;
@@ -150,7 +150,7 @@
             // 
             this.XboxRetBut.BackColor = System.Drawing.Color.DarkGray;
             this.XboxRetBut.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.XboxRetBut.Location = new System.Drawing.Point(665, 451);
+            this.XboxRetBut.Location = new System.Drawing.Point(666, 479);
             this.XboxRetBut.Name = "XboxRetBut";
             this.XboxRetBut.Size = new System.Drawing.Size(198, 76);
             this.XboxRetBut.TabIndex = 11;
@@ -161,7 +161,7 @@
             // InvTextBox
             // 
             this.InvTextBox.AcceptsReturn = true;
-            this.InvTextBox.Location = new System.Drawing.Point(828, 393);
+            this.InvTextBox.Location = new System.Drawing.Point(828, 414);
             this.InvTextBox.Multiline = true;
             this.InvTextBox.Name = "InvTextBox";
             this.InvTextBox.Size = new System.Drawing.Size(205, 31);
@@ -170,7 +170,7 @@
             // QuantRetLabel
             // 
             this.QuantRetLabel.Font = new System.Drawing.Font("MS Gothic", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantRetLabel.Location = new System.Drawing.Point(698, 393);
+            this.QuantRetLabel.Location = new System.Drawing.Point(698, 412);
             this.QuantRetLabel.Name = "QuantRetLabel";
             this.QuantRetLabel.Size = new System.Drawing.Size(144, 55);
             this.QuantRetLabel.TabIndex = 9;
@@ -183,7 +183,7 @@
             this.invGroupBox.Controls.Add(this.InvXboxLabel);
             this.invGroupBox.Location = new System.Drawing.Point(593, 12);
             this.invGroupBox.Name = "invGroupBox";
-            this.invGroupBox.Size = new System.Drawing.Size(578, 360);
+            this.invGroupBox.Size = new System.Drawing.Size(578, 388);
             this.invGroupBox.TabIndex = 8;
             this.invGroupBox.TabStop = false;
             this.invGroupBox.Text = "Inventory";
@@ -192,25 +192,25 @@
             // 
             this.invPSLabel.BackColor = System.Drawing.Color.LightGray;
             this.invPSLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.invPSLabel.Location = new System.Drawing.Point(304, 43);
+            this.invPSLabel.Location = new System.Drawing.Point(304, 27);
             this.invPSLabel.Name = "invPSLabel";
-            this.invPSLabel.Size = new System.Drawing.Size(237, 299);
+            this.invPSLabel.Size = new System.Drawing.Size(237, 347);
             this.invPSLabel.TabIndex = 7;
             // 
             // InvXboxLabel
             // 
             this.InvXboxLabel.BackColor = System.Drawing.Color.LightGray;
             this.InvXboxLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.InvXboxLabel.Location = new System.Drawing.Point(34, 43);
+            this.InvXboxLabel.Location = new System.Drawing.Point(34, 27);
             this.InvXboxLabel.Name = "InvXboxLabel";
-            this.InvXboxLabel.Size = new System.Drawing.Size(237, 299);
+            this.InvXboxLabel.Size = new System.Drawing.Size(237, 347);
             this.InvXboxLabel.TabIndex = 6;
             // 
             // RestockButton
             // 
             this.RestockButton.BackColor = System.Drawing.Color.DarkGray;
             this.RestockButton.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.RestockButton.Location = new System.Drawing.Point(196, 566);
+            this.RestockButton.Location = new System.Drawing.Point(191, 593);
             this.RestockButton.Name = "RestockButton";
             this.RestockButton.Size = new System.Drawing.Size(198, 76);
             this.RestockButton.TabIndex = 13;
