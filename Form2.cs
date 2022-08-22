@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Milestone_4
 {
     /*Enrique Sanchezmurillo
-     * CST-150, Milestone 4
+     * CST-150, Milestone 4 & 5
      * 21 AUG 2022
      */
     public partial class Form2 : Form
