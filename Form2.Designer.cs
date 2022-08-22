@@ -170,7 +170,7 @@
             // QuantRetLabel
             // 
             this.QuantRetLabel.Font = new System.Drawing.Font("MS Gothic", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantRetLabel.Location = new System.Drawing.Point(698, 412);
+            this.QuantRetLabel.Location = new System.Drawing.Point(688, 412);
             this.QuantRetLabel.Name = "QuantRetLabel";
             this.QuantRetLabel.Size = new System.Drawing.Size(144, 55);
             this.QuantRetLabel.TabIndex = 9;

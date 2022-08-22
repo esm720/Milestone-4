@@ -10,7 +10,8 @@ using System.Windows.Forms;
 
 namespace Milestone_4
 {
-    /*Enrique Sanchezmurillo
+    /*
+     * Enrique Sanchezmurillo
      * CST-150, Milestone 4 & 5
      * 21 AUG 2022
      */
